@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{F2AE2022-D481-48E2-B8E0-18EE9E0E5713}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataContext", "DataContext\DataContext.csproj", "{BBB7E24C-EEA7-43F6-A188-E2119712F29C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorage_File_Upload", "BlobStorage_File_Upload\BlobStorage_File_Upload.csproj", "{ABA94DA5-241E-470F-A9AD-D36746D61A24}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2AE2022-D481-48E2-B8E0-18EE9E0E5713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AE2022-D481-48E2-B8E0-18EE9E0E5713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AE2022-D481-48E2-B8E0-18EE9E0E5713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AE2022-D481-48E2-B8E0-18EE9E0E5713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB7E24C-EEA7-43F6-A188-E2119712F29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB7E24C-EEA7-43F6-A188-E2119712F29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB7E24C-EEA7-43F6-A188-E2119712F29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB7E24C-EEA7-43F6-A188-E2119712F29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA94DA5-241E-470F-A9AD-D36746D61A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA94DA5-241E-470F-A9AD-D36746D61A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA94DA5-241E-470F-A9AD-D36746D61A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA94DA5-241E-470F-A9AD-D36746D61A24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
